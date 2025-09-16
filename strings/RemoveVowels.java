@@ -10,6 +10,7 @@ public class RemoveVowels {
         StringBuilder newStr = new StringBuilder();
 
         for(int i = 0; i < str.length(); i++) {
+            // Adds character to newStr only if it's not a vowel
             if(!vowels.contains(str.charAt(i))) newStr.append(str.charAt(i));
         }
 
