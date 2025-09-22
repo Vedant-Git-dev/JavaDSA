@@ -1,13 +1,13 @@
 public class Reverse {
     public static String reverse(String str) {
-        String reversedStr = "";
+        StringBuilder reversedStr = new StringBuilder();
         
         // Loops from end to start of original string
         for(int i = str.length() - 1; i >= 0; i--){
-            reversedStr += str.charAt(i); // Adds current character to the reversedStr
+            reversedStr.append(str.charAt(i)); // Adds current character to the reversedStr
         }
 
-        return reversedStr;
+        return reversedStr.toString();
     }
     public static void main(String args[]){
         String str = "Vedant";
