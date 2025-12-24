@@ -84,7 +84,6 @@ JavaDSA/
 - Sort a stack using another stack
 - Next Greater Element
 - Reverse a string using stack
-- Minimum element in a stack
 
 ---
 
