@@ -105,7 +105,6 @@ JavaDSA/
 - Implement binary tree
 - Preorder, Inorder, Postorder traversal
 - Level order traversal
-- Height of a binary tree
 - Count number of nodes
 - Find maximum element in binary tree
 - Check if two trees are identical
